@@ -1,115 +1,27 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+
 body{
     background-color: #fbfdfd;
-    font-family: "Interface";
+    font-family: 'Inter UI', sans-serif;
     margin: 0;
 }
 
-
-/*stili sezioni*/
-
-content{
-    box-sizing: border-box;
-    position: relative;
-    width: 100%;
-    
-    
-}
-section{
-    position: relative;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border-top: 1px solid #000;
-    padding-top: 3em;
-    padding-bottom: 3em;
-    text-align: left;
-}
-
-
-content section:first-of-type{
-    border-top: none;
-}
-
-
-.moresection{
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 30px;
-    margin-left: 80px;
-    
-}
-
-.moreelement{
-    width: 520px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-
-span{
-    width: 530px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-
-.work{
-    vertical-align: baseline;
-    margin-left: 10px;
-    margin-left: 10px;
-}
-
-
-
-footer{
-    clear: both; 
-}
-
-
-
-
 /*stili testo*/
-
-h1{
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 40px;
-
-}
 
 h2{
     font-size: 24px;
-    font-weight: 200; 
-    transform: translateX(-50px);
-
+    font-weight: 400;
 }
 
 p{
     font-size: 24px;
-    font-weight: 200;
     line-height: 40px;
-}
-
-.aboutsection{
-    font-size: 24px;
-    font-weight: 200; 
-    transform: translateX(-50px);
-    margin-bottom: 0;
-    
-    
 }
 
 .worktitle{
     overflow: hidden;
     font-size: 72px;
-    font-weight: 200;
-    display: inline-block;
     line-height: 94px;
-    box-sizing: border-box;
     margin-top:25px;
 }
 
@@ -132,7 +44,48 @@ sup{
 
 .footercredits{
     font-size: 14px;
-    font-weight: 200; 
-    transform: translateX(-50px);
     color: #01a701;
+}
+
+
+/*stili sezioni*/
+
+content {
+}
+
+section {
+    padding: 3rem 0;
+    border-bottom: 1px solid #000000;
+}
+.info-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.info-container div {
+    width: 530px;
+}
+
+.indented {
+    padding-left: 3rem;
+}
+
+.moresection{
+    padding: 30px;
+    margin-left: 80px;
+}
+
+.moreelement{
+    width: 520px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.work{
+    vertical-align: baseline;
+    margin-left: 10px;
+    margin-left: 10px;
 }
