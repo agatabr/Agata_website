@@ -1,7 +1,7 @@
-$(function() {
-    // instantiate the scrollama
-    const scroller = scrollama();
+// instantiate the scrollama
+const scroller = scrollama();
 
+$(function() {
     // setup the instance, pass callback functions
     scroller
       .setup({
